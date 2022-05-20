@@ -12,7 +12,7 @@ win_ent <- function(data_seq,
                     parts = 16,
                     lag_max = 50,
                     alpha = 0.05) {
-  # Follows Wiltshire, Fiore, & Butner (2017)
+  # Follows Wiltshire, Fiore, & Butner (2017), sort of
   # Returns a data frame (or NULL, if failed) of two time series:
   #  1. A (numeric) windowed entropy
   #  2. A marker of maxima (TRUE for a maxima, FALSE for not)
