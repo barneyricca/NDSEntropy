@@ -17,6 +17,8 @@ win_ent <- function(data_seq,
   #  1. A (numeric) windowed entropy
   #  2. A marker of maxima (TRUE for a maxima, FALSE for not)
   #
+  require(tseriesChaos)
+
   if(mode(data_seq) == "integer") {
     as.character(data_seq) -> data_seq
   }
